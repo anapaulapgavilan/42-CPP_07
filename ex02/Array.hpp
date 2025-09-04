@@ -6,7 +6,7 @@
 /*   By: ana-pper <ana-pper@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/04 10:34:43 by ana-pper          #+#    #+#             */
-/*   Updated: 2025/09/04 10:50:11 by ana-pper         ###   ########.fr       */
+/*   Updated: 2025/09/04 10:57:53 by ana-pper         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,8 @@
 
 #include <stdexcept>
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 
 template <typename T>
 class Array {
