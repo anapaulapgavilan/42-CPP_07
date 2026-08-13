@@ -1,42 +1,58 @@
 ﻿# CPP_07
 
-C++ Module 07 from 42: templates and generic code.
+Modulo C++ 07 de 42: templates y programacion generica.
 
 ## Stack
 
 - School: 42
-- Primary language: C/C++
-- Scope: single repository per project
+- Lenguaje principal: C++98
+- Alcance: un repositorio por proyecto
 
-## Project Layout
+## Estructura
 
-| Exercise | Path |
-|---|---|
-| ex00 | ./ex00 |
-| ex01 | ./ex01 |
-| ex02 | ./ex02 |
+| Ejercicio | Ruta | Binario |
+|---|---|---|
+| ex00 | ./ex00 | whatever |
+| ex01 | ./ex01 | iter |
+| ex02 | ./ex02 | array |
 
-## How To Run
+## Como Ejecutarlo
 
-Build one exercise at a time:
+Compila y ejecuta cada ejercicio por separado:
+
+### ex00
 
 ~~~bash
 cd ex00
 make
-./<binary_name>
+./whatever
 ~~~
 
-Repeat the same flow for: ex00, ex01, ex02
+### ex01
 
-## Testing
+~~~bash
+cd ex01
+make
+./iter
+~~~
 
-No dedicated test script detected in the repository root.
+### ex02
 
-## Notes
+~~~bash
+cd ex02
+make
+./array
+~~~
 
-- This repository is maintained as part of a 42 portfolio.
-- Build commands are intentionally simple to keep evaluation reproducible.
+## Pruebas
 
-## Author
+No se detectaron scripts de testing dedicados en la raiz.
+
+## Notas
+
+- Este repositorio forma parte del portfolio de 42.
+- Los comandos estan orientados a ejecucion local para revision y evaluacion.
+
+## Autora
 
 anapaulapgavilan
