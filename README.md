@@ -4,6 +4,21 @@
 
 42 School C++ module 07: templates and generic programming.
 
+## About This Project
+
+### What It Does
+
+This module introduces generic programming with C++ templates instead of writing the same logic once per type.
+
+Exercises in this module:
+- ex00: template functions for swapping, finding the min, and finding the max of any two comparable values.
+- ex01: a generic Array<T> container with bounds-checked element access and value-initialized storage.
+- ex02: an iter() template function that applies a given function to every element of an array of any type.
+
+### Purpose
+
+It evaluates whether a student can write type-agnostic, reusable code with templates, and understands how the compiler generates concrete functions/classes from a generic definition.
+
 ## Stack
 
 - School: 42
@@ -19,6 +34,8 @@
 | ex02 | ./ex02 | array |
 
 ## How to Run
+
+Prerequisites: `make` and a C++98-capable compiler (`g++` or `clang++`).
 
 Compile and run each exercise separately:
 
