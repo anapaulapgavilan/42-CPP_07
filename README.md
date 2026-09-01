@@ -25,6 +25,16 @@ It evaluates whether a student can write type-agnostic, reusable code with templ
 - Primary language: C++98
 - Scope: one repository per project
 
+## Skills Demonstrated
+
+`Templates` | `Generic programming` | `Type-agnostic containers`
+
+## Features
+
+- Type-agnostic template functions for swap, min, and max
+- Generic Array<T> container with bounds-checked access and value-initialized storage
+- iter() template applying a function to every element of any array
+
 ## Structure
 
 | Exercise | Path | Binary |
