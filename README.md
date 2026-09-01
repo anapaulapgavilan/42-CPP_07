@@ -35,6 +35,12 @@ It evaluates whether a student can write type-agnostic, reusable code with templ
 - Generic Array<T> container with bounds-checked access and value-initialized storage
 - iter() template applying a function to every element of any array
 
+## Review Focus
+
+- Look for templates that remain readable and type-agnostic without unnecessary specialization.
+- Review Array<T> bounds handling and copy semantics for safe generic storage.
+- Notice how compile-time generic code removes repetition while preserving type safety.
+
 ## Structure
 
 | Exercise | Path | Binary |
