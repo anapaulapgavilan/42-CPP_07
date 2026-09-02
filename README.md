@@ -41,6 +41,18 @@ It evaluates whether a student can write type-agnostic, reusable code with templ
 - Review Array<T> bounds handling and copy semantics for safe generic storage.
 - Notice how compile-time generic code removes repetition while preserving type safety.
 
+## Project Deep Dive
+
+CPP_07 introduces templates as a way to write one correct implementation for many types. The exercises are small, but they show whether generic code remains simple, readable, and type-safe.
+
+The Array<T> exercise is the strongest reviewer target because it combines generic storage, copying, bounds checking, and exception behavior. It demonstrates that templates still require normal class-design discipline.
+
+## Implementation Notes
+
+- Implements reusable function templates for common operations without type-specific duplication.
+- Provides a generic Array<T> class with predictable construction, copying, and indexed access.
+- Applies callable behavior over arrays through iter(), showing generic algorithms at a small scale.
+
 ## Structure
 
 | Exercise | Path | Binary |
